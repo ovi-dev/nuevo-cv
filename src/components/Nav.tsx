@@ -19,39 +19,58 @@ export const Nav = () => {
         <div className='w-full bg-black/20 h-[96px] backdrop-blur-2xl 
         rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl
         text-white/80'>
-        <Link 
-        to='/' 
         
-        className=' cursor-pointer w-60px] h-[60px] flex items-center justify-center'>
+        <Link 
+        to='home'
+        activeClass='active'
+        smooth={true}
+        spy={true}      
+        offset={-200}  
+        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
+        >
         <BiHomeAlt/>
         </Link>
 
         <Link 
-        to=''
+        to='about'
+        activeClass='active'
+        smooth={true}
+        spy={true}
         
         className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
         <BiUser/>
         </Link>
 
         <Link 
-          to=''
+          to='servicios'
+          activeClass='active'
+          smooth={true}
+          spy={true}
         
         className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
         <BsClipboardData/>
         </Link>
 
         <Link 
-          to=''
+          to='trabajo'
+          activeClass='active'
+          smooth={true}
+          spy={true}
         
         className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
         <BsBriefcase/>
         </Link>
+
         <Link 
-        to=''
+        to='contacto'
+        activeClass='active'
+        smooth={true}
+        spy={true}
         
         className=' cursor-pointer w-[60px] h-[60px] flex items-center justify-center'>
-        <BsBriefcase/>
+        <BsChatSquareText/>
         </Link>
+       
         
 
         </div>

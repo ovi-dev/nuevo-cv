@@ -16,12 +16,12 @@ export default function Home() {
       <div className="bg-site bg-no-repeat bg-cover overflow-hidden" >
 
         <Header/>
-        <About/>
         <Baner/>
-        <Contacto/>
+        <About/>
         <Nav/>
         <Servicios/>
         <Trabajos/>
+        <Contacto/>
 
         <div className="h-[4000px]"></div>
         

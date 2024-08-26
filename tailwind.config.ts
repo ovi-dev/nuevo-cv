@@ -12,7 +12,7 @@ const config: Config = {
     fontFamily: {
       primary: 'Orbitron',
       secondary: 'Rajdhani',
-      tertiary: 'Aldrich',
+      tertiary: 'raleway',
     },
     container: {
       padding: {
