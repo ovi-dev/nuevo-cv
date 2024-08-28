@@ -63,7 +63,12 @@ export const Baner = () => {
               Tempore nesciunt itaque   
             </motion.p>
 
-            <div className=" flex max-w-max gap-x-6 items-center mb-12 
+            <motion.div 
+            variants={fadeIn('up', 0.6)}
+            initial='hidden'
+            whileInView={'show'}
+            viewport={{once: false, amount: 0.8}} 
+            className=" flex max-w-max gap-x-6 items-center mb-12 
             mx-auto lg:mx-0"
             
             >{/* Botones Contactame y Cv */}            
@@ -79,20 +84,31 @@ export const Baner = () => {
                hover:shadow-lg hover:shadow-[#6025F5]/50"
               >Mi Cv</button>
               </a>
-            </div>{/* Botones Contactame y Cv */}
+            </motion.div>{/* Botones Contactame y Cv */}
              
-              <div className="flex text-[20px] gap-x-8 max-w-max mx-auto lg:mx-14">{/* Sociales */}
+              <motion.div 
+              variants={fadeIn('up', 0.7)}
+              initial='hidden'
+              whileInView={'show'}
+              viewport={{once: false, amount: 0.9}} 
+              
+              className="flex text-[20px] gap-x-8 max-w-max mx-auto lg:mx-12">{/* Sociales */}
               <a href="https://github.com/ovi-dev">
                 <FaGithub/>
               </a>
               <a href="https://x.com/adrianovi_">
                 <FaXTwitter/>
               </a>
-              </div>{/* Sociales */}
+              </motion.div>{/* Sociales */}
 
           </div>
 
-          <div className=" hidden lg:flex flex-1 max-w-[320px]
+          <motion.div 
+          variants={fadeIn('down', 0.5)}
+          initial='hidden'
+          whileInView={'show'}
+         
+          className=" hidden lg:flex flex-1 max-w-[320px]
           lg:max-[482px]">{/* imagen */}
             <Image
               src={imagen}
@@ -101,7 +117,7 @@ export const Baner = () => {
               height={290}
               className="rounded-full opacity-70"
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
