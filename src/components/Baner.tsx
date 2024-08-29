@@ -9,6 +9,7 @@ import Image from "next/image";
 import { Raleway } from "next/font/google";
 import { Link } from "react-scroll";
 
+
 const raleway = Raleway({
   subsets: ["latin"],
   weight: "600",
@@ -92,9 +93,10 @@ export const Baner = () => {
               whileInView={'show'}
               viewport={{once: false, amount: 0.9}} 
               
-              className="flex text-[20px] gap-x-8 max-w-max mx-auto lg:mx-12">{/* Sociales */}
+              className="flex text-[19px] gap-x-9 max-w-max mx-auto lg:mx-12">{/* Sociales */}
+             
               <a href="https://github.com/ovi-dev">
-                <FaGithub/>
+                <FaGithub />
               </a>
               <a href="https://x.com/adrianovi_">
                 <FaXTwitter/>

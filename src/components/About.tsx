@@ -20,11 +20,22 @@ const [ref, inView] = useInView({
       <div className=' flex flex-col gap-y-10 lg:flex-row lg:items-center 
       lg:gap-x-20 lg:gap-y-0 h-screen'>
         {/* imagen */}
-        <div className='flex-1 bg-about bg-contain bg-no-repeat 
-        h-[400px] mix-blend-lighten bg-top opacity-3'></div>
+        <motion.div 
+        variants={fadeIn('right', 0.3)}
+        initial='hidden'
+        whileInView={'show'}
+        viewport={{once: false, amount: 0.3}}
+        className='flex-1 bg-about bg-contain bg-no-repeat 
+        h-[400px] mix-blend-lighten bg-top opacity-3'>
+        </motion.div>
 
         {/* texto */}
-        <div className='flex-1'>
+        <motion.div 
+        variants={fadeIn('left', 0.5)}
+        initial='hidden'
+        whileInView={'show'}
+        viewport={{once: false, amount: 0.3}}
+        className='flex-1'>
         <h2 className='text-5xl font-extrabold text-accent'> About me.</h2>
         <h3 className='mb-1'> React Developer com mas de 5 años de experiencia Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae 
           volupebitis sit. Enim, nemo consequatur.
@@ -74,7 +85,7 @@ const [ref, inView] = useInView({
             
           </div>
           
-        </div>
+        </motion.div>
       </div>
     </div>
   </section>
