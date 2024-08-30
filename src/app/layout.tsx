@@ -3,6 +3,7 @@ import { Inter, Inter_Tight, Montserrat_Alternates, Poppins} from 'next/font/goo
 import "./globals.css";
 
 
+
 const inter = Inter({
   subsets: ['latin'],
   weight: "100"
@@ -30,3 +31,6 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+
