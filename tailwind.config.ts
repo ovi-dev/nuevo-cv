@@ -36,8 +36,8 @@ const config: Config = {
       backgroundImage: {
         site: "url('/img/site-bg.jpg')",
         about: "url('./assets/about.png')",
-        services: "url('./assets/services.png')",
-        
+        services: "url('/img/services.png')",
+      
       },
     },
     

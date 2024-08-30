@@ -30,14 +30,14 @@ export const Baner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}}
 
-            className="text-[55px] font-bold leading-[0.8] lg:text-[97px]" > Adrian <span>Perez</span>
+            className="text-[55px] font-bold leading-[0.8] lg:text-[90px]" > Adrian <span>Perez</span>
             </motion.h1>
             <motion.div
             variants={fadeIn('up', 0.4)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}} 
-            className="mb-6 text-[32px] lg:text-[60px] font-semibold uppercase leading-[1]">
+            className="mb-6 text-[30px] lg:text-[60px] font-semibold uppercase leading-[1]">
             
               <span className="text-white mr-3"> Soy un</span>
               <TypeAnimation sequence={[
@@ -94,13 +94,17 @@ export const Baner = () => {
               viewport={{once: false, amount: 0.9}} 
               
               className="flex text-[19px] gap-x-9 max-w-max mx-auto lg:mx-12">{/* Sociales */}
-             
+             <button type="button">
               <a href="https://github.com/ovi-dev">
                 <FaGithub />
               </a>
+
+             </button>
+             <button type="button">
               <a href="https://x.com/adrianovi_">
                 <FaXTwitter/>
               </a>
+             </button>
               </motion.div>{/* Sociales */}
 
           </div>
@@ -114,7 +118,7 @@ export const Baner = () => {
           lg:max-[482px]">{/* imagen */}
             <Image
               src={imagen}
-              alt={""}
+              alt={" adrian Perez"}
               width={350}
               height={290}
               className="rounded-full opacity-70"
