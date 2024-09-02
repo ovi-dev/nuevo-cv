@@ -10,7 +10,7 @@ const inter = Inter({
 })
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: "200"
+  weight: ['300']
 })
 
 export const metadata: Metadata = {
