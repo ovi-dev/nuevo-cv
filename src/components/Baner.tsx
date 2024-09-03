@@ -39,13 +39,13 @@ export const Baner = () => {
             viewport={{once: false, amount: 0.7}} 
             className="mb-6 text-[30px] lg:text-[60px] font-semibold uppercase leading-[1]">
             
-              <span className="text-white mr-3"> Soy un</span>
+              <span className="text-white mr-3">developer</span>
               <TypeAnimation sequence={[
-              'Next',
+              'ReactNative',
               1000,
               'React',
               1000,
-              'React-Native',
+              'Next',
               1000,
             ]}
             wrapper="span"
@@ -60,8 +60,8 @@ export const Baner = () => {
              initial='hidden'
              whileInView={'show'}
              viewport={{once: false, amount: 0.7}} 
-            className="mb-8 max-w-lg mx-auto lg:mx-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-              Tempore nesciunt itaque   
+            className="mb-8 max-w-lg mx-auto lg:mx-0">Transformando ideas en experiencias digitales excepcionales
+               
             </motion.p>
 
             <motion.div 

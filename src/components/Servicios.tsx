@@ -20,7 +20,7 @@ const servicios = [
   {
     nombre: "UI/UX",
     descripcion:
-      "React y Next fundamentales son mi enfoque para desarrollar aplicaciones web modernas. Utilizo React para construir interfaces de usuario interactivas y reutilizables, y Next.js para optimizar el rendimiento y la SEO de las aplicaciones que desarrollo.",
+      "React y Next fundamentales son mi enfoque para desarrollar aplicaciones web modernas. Utilizo React para construir interfaces de usuario interactivas y reutilizables, y Next.js para optimizar el rendimiento y la SEO.",
     
     link1: "saber mas",
   },
