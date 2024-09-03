@@ -41,12 +41,12 @@ export const Contacto = () => {
            viewport={{ once: false, amount: 0.3 }}
           className='flex-1 flex justify-start items-center'> 
             <div>
-                <h4 className=' text-xl uppercase text-accent font-medium mb-2 
+                <h4 className=' text-[32px] uppercase text-accent font-medium mb-2 
                 tracking-wide'>
-                  Ponte en contacto
+                  Contactame
                   </h4>
                   {/* tamano de letra text-[45px]  */}
-                  <h2 className='text-[45px] lg:text-[90px] leading-none mb-12'>Trabajemos <br/> Juntos</h2>
+                  <h2 className='text-[45px] lg:text-[55px] leading-none mb-12'>Trabajemos <br/> Juntos</h2>
 
             </div>  
           </motion.div>
