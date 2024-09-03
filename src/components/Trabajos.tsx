@@ -31,15 +31,18 @@ export const Trabajos = () => {
                 My trabajo
               </h2>
               <p className=" max-w-sm mb-14">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                jlkjkljdslkjsd kjkj khj kjh
+              Este formato proporciona una descripción concisa de cada proyecto, destacando
+               las tecnologías utilizadas y las principales características.
                 
               </p>
+              <a href="https://github.com/ovi-dev">
               <button
                 className="rounded-xl bg-gradient-to-br from-[#6025F5] to-[#FF5555] px-4 py-2 text-base  text-white font-bold transition duration-200 hover:shadow-lg hover:shadow-[#6025F5]/50"
                 type="button"
               > Todos mis Proyectos
               </button>
+
+              </a>
             </div>
 
 

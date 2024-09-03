@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Logo from '../app/assets/logo2.png'
+import { Link } from 'react-scroll'
 
 
 
@@ -19,10 +20,14 @@ export const Header = () => {
         className=' opacity-90 '
       />
   
+        <Link
+        to='trabajo'
+        >
         
         <button  
         className="rounded-xl bg-gradient-to-br from-[#6025F5] to-[#FF5555] px-5 py-3 text-base  text-white font-bold transition duration-200 hover:shadow-lg hover:shadow-[#6025F5]/50"
         type='button'> Mi trabajo</button>
+        </Link>
    
        </div>
       </div>

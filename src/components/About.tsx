@@ -36,13 +36,13 @@ const [ref, inView] = useInView({
         whileInView={'show'}
         viewport={{once: false, amount: 0.3}}
         className='flex-1'>
-        <h2 className='text-5xl font-extrabold text-accent'> About me.</h2>
-        <h3 className='mb-1'> React Developer com mas de 5 años de experiencia Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae 
-          volupebitis sit. Enim, nemo consequatur.
-           Sapiente sequi neque nesciunt libero repellendus eos?</h3>
-        <p className=' mb-6'>Lorem ipsum dolor sit amet consectetur, adipisicing 
-          elit.
-          </p>
+        <h2 className='text-5xl font-extrabold text-accent'> Sobre mí.</h2>
+        <h3 className='mb-1'> 
+          Soy un desarrollador web con más de 3 años de experiencia en el desarrollo de aplicaciones frontend y conocimientos backend. Mi experiencia abarca tecnologías como React, React-Native, Nextjs, Node, Git, SQL mi último proyecto desarrolle una plataforma de e-commerce.
+          Me apasiona crear soluciones tecnológicas que no solo sean funcionales, sino también intuitivas y eficientes. Me esfuerzo por mantenerme al día con las últimas tendencias y tecnologías.
+          Valoro la colaboración y el aprendizaje continuo, y estoy buscando una oportunidad donde pueda aplicar mis habilidades y crecer.
+          </h3>
+      
           {/* estados */}
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
             <div>
