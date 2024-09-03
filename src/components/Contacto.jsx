@@ -32,7 +32,7 @@ export const Contacto = () => {
   return (
     <section id='contacto' className='py-16 lg:section'>
       <div className=' container mx-auto'>
-        <div className=' flex flex-colo lg:flex-row'>
+        <div className=' flex flex-col lg:flex-row'>
           {/* Texto */}
           <motion.div 
            variants={fadeIn("right", 0.3)}
