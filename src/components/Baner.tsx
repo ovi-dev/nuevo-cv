@@ -43,9 +43,9 @@ export const Baner = () => {
               <TypeAnimation sequence={[
               'ReactNative',
               1000,
-              'React',
+              'Nextjs',
               1000,
-              'Next',
+              'React',
               1000,
             ]}
             wrapper="span"
