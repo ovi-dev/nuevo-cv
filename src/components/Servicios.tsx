@@ -54,7 +54,7 @@ export const Servicios = () => {
             className="flex-1 lg:bg-services lg:bg-bottom bg-no-repeat
           mix-blend-lighten mb-12 mb-o"
           >
-            <h2 className={`${inter.className} text-5xl text-accent mb-6`}> Lo que Hago</h2>
+            <h2 className={`${inter.className} text-4xl text-accent mb-6`}> Lo que Hago</h2>
             <h3 className=" max-w-[555px] mb-12 text-2xl ">
               
             Ofrezco desarrollo web completo utilizando React y Next.js para crear interfaces interactivas y optimizadas. Desarrollo aplicaciones móviles nativas con React Native y gestiono el backend con Node.js y SQL. 
@@ -86,7 +86,7 @@ export const Servicios = () => {
                     <div className=" max-w-[476px]">
                       <h4 className="text-[20px] tracking-wider font-primary
                       font-semibold mb-4">{nombre}</h4>
-                      <p className="font-semibold leading-tight">{descripcion}</p>
+                      <p className="font-semibold leading-tight text-[18px]">{descripcion}</p>
                     </div>
                     <div className=" flex flex-col flex-1 items-end ">
                       <a className="btn w-9 h-9 mb-[40px] flex justify-center items-center" >

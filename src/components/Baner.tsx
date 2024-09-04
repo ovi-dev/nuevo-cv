@@ -30,14 +30,14 @@ export const Baner = () => {
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}}
 
-            className="text-[55px] font-bold leading-[0.8] lg:text-[90px]" > Adrian <span>Perez</span>
+            className="text-[55px] font-bold leading-[0.8] lg:text-[80px]" > Adrian <span>Perez</span>
             </motion.h1>
             <motion.div
             variants={fadeIn('up', 0.4)}
             initial='hidden'
             whileInView={'show'}
             viewport={{once: false, amount: 0.7}} 
-            className="mb-6 text-[30px] lg:text-[60px] font-semibold uppercase leading-[1]">
+            className="mb-6 text-[28px] lg:text-[50px] font-semibold uppercase leading-[1]">
             
               <span className="text-white mr-3">developer</span>
               <TypeAnimation sequence={[
