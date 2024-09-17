@@ -38,7 +38,7 @@ const [ref, inView] = useInView({
         className='flex-1'>
         <h2 className='text-5xl font-extrabold text-accent'> Sobre mí.</h2>
         <h3 className='mb-1'> 
-          Soy un desarrollador web con más de 3 años de experiencia en el desarrollo de aplicaciones frontend y conocimientos backend. Mi experiencia abarca tecnologías como React, React-Native, Nextjs, Node, Git, SQL mi último proyecto desarrolle una plataforma de e-commerce.
+          Soy un desarrollador web con más de 5 años de experiencia en el desarrollo de aplicaciones frontend y conocimientos backend. Mi experiencia abarca tecnologías como React, React-Native, Nextjs, Node, Git, SQL mi último proyecto desarrolle una plataforma de e-commerce.
           Me apasiona crear soluciones tecnológicas que no solo sean funcionales, sino también intuitivas y eficientes. Me esfuerzo por mantenerme al día con las últimas tendencias y tecnologías.
           Valoro la colaboración y el aprendizaje continuo, y estoy buscando una oportunidad donde pueda aplicar mis habilidades y crecer.
           </h3>
@@ -49,7 +49,7 @@ const [ref, inView] = useInView({
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                 inView ?
-                <CountUp start={0} end={3} duration={3} /> : null }
+                <CountUp start={0} end={5} duration={3} /> : null }
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
                 Años de  <br />
@@ -61,7 +61,7 @@ const [ref, inView] = useInView({
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                 inView ?
-                <CountUp start={0} end={100} duration={3} /> : null }
+                <CountUp start={0} end={40} duration={3} /> : null }
                 +
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
@@ -74,7 +74,7 @@ const [ref, inView] = useInView({
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                 inView ?
-                <CountUp start={0} end={20} duration={3} /> : null }
+                <CountUp start={0} end={2} duration={3} /> : null }
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
                 Clientes  <br />

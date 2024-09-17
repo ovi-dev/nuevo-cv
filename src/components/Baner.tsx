@@ -8,6 +8,7 @@ import { fadeIn } from "../variables/vairables";
 import Image from "next/image";
 import { Raleway } from "next/font/google";
 import { Link } from "react-scroll";
+import { FaLinkedin } from "react-icons/fa";
 
 
 const raleway = Raleway({
@@ -98,13 +99,21 @@ export const Baner = () => {
               <a href="https://github.com/ovi-dev">
                 <FaGithub />
               </a>
-
              </button>
+
              <button type="button">
               <a href="https://x.com/adrianovi_">
                 <FaXTwitter/>
               </a>
              </button>
+
+             <button type="button">
+              <a href="https://linkedin.com/in/adrian-perez-santana-350419230">
+                <FaLinkedin/>
+              </a>
+             </button>
+
+             
               </motion.div>{/* Sociales */}
 
           </div>
