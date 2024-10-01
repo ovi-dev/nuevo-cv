@@ -13,7 +13,6 @@ pnpm dev
 # or
 bun dev
 ```
-
 dependencias 
 npm install framer-motion
 npm i react-countup
