@@ -14,9 +14,9 @@ const inter = Inter({
 
 export const Trabajos = () => {
   return (
-    <section id="trabajo" className="">
+    <section id="trabajo" className="section">
       <div className=" container mx-auto">
-        <div className="flex flex-col lg:flex-row gap-x-12">
+        <div className="flex flex-col lg:flex-row gap-x-10">
           
    <motion.div 
             variants={fadeIn("right", 0.2)}
@@ -27,10 +27,10 @@ export const Trabajos = () => {
           >
             {/* izquierda texto */}
             <div>
-              <h2 className={`${inter.className} text-5xl text-accent mb-7`}>
+              <h2 className={`${inter.className} text-5xl text-accent mb-4`}>
                 My trabajo
               </h2>
-              <p className=" max-w-sm mb-14">
+              <p className=" max-w-sm mb-10">
               Este formato proporciona una descripción concisa de cada proyecto, destacando
                las tecnologías utilizadas y las principales características.
                 
