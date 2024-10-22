@@ -1,5 +1,5 @@
 'use client'
-
+import Script from 'next/script';
 import { About } from "@/components/About";
 import { Baner } from "@/components/Baner";
 import { Contacto } from "@/components/Contacto";
@@ -7,6 +7,7 @@ import { Header } from "@/components/Header";
 import { Nav } from "@/components/Nav";
 import { Servicios } from "@/components/Servicios";
 import { Trabajos } from "@/components/Trabajos";
+import Politica from '@/components/Politica';
 
 
 export default function Home() {
@@ -27,6 +28,9 @@ export default function Home() {
         
         
 
+      </div>
+      <div>
+        <Politica/>
       </div>
       
      
