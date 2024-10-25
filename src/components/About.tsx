@@ -49,7 +49,7 @@ const [ref, inView] = useInView({
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                 inView ?
-                <CountUp start={0} end={5} duration={3} /> : null }
+                <CountUp start={0} end={5} duration={6} /> : null }
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
                 Años de  <br />
@@ -61,7 +61,7 @@ const [ref, inView] = useInView({
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                 inView ?
-                <CountUp start={0} end={40} duration={3} /> : null }
+                <CountUp start={0} end={40} duration={6} /> : null }
                 +
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
@@ -70,7 +70,7 @@ const [ref, inView] = useInView({
               </div>
 
             </div>
-            <div>
+            {/* <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                 inView ?
@@ -81,7 +81,7 @@ const [ref, inView] = useInView({
                 
               </div>
 
-          </div>
+          </div> */}
             
           </div>
           

@@ -28,7 +28,7 @@ export const Trabajos = () => {
             {/* izquierda texto */}
             <div>
               <h2 className={`${inter.className} text-5xl text-accent mb-4`}>
-                My trabajo
+                Mi trabajo
               </h2>
               <p className=" max-w-sm mb-10">
               Este formato proporciona una descripción concisa de cada proyecto, destacando
