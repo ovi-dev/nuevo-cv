@@ -20,7 +20,7 @@ const servicios = [
   {
     nombre: "UI/UX",
     descripcion:
-      "React y Next fundamentales son mi enfoque para desarrollar aplicaciones web modernas. Utilizo React para construir interfaces de usuario interactivas y reutilizables, y Next.js para optimizar el rendimiento y la SEO.",
+      "React y Next son mi enfoque para desarrollar aplicaciones web modernas. Utilizo React para construir interfaces de usuario interactivas y reutilizables.",
     
     link1: "saber mas",
   },
@@ -33,7 +33,7 @@ const servicios = [
   {
     nombre: "Apps Nativas Android y IOS",
     descripcion:
-      "Desarrollo aplicaciones móviles nativas para iOS y Android con React Native, compartiendo una base de código única.",
+      "Desarrollo aplicaciones móviles nativas para iOS y Android con React Native.",
     link3: "saber mas",
   },
  
