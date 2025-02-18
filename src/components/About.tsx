@@ -25,8 +25,7 @@ const [ref, inView] = useInView({
         initial='hidden'
         whileInView={'show'}
         viewport={{once: false, amount: 0.3}}
-        className='flex-1 bg-about bg-contain bg-no-repeat 
-        h-[400px] mix-blend-lighten bg-top opacity-3'>
+        className='flex-1 bg-about bg-contain bg-no-repeat h-[400px] md:h-[600px] mix-blend-lighten bg-top opacity-3 rounded-lg'>
         </motion.div>
 
         {/* texto */}
@@ -38,9 +37,8 @@ const [ref, inView] = useInView({
         className='flex-1'>
         <h2 className='text-5xl font-extrabold text-accent'> Sobre mí.</h2>
         <h3 className='mb-1'> 
-          Soy un desarrollador web con más de 5 años de experiencia en el desarrollo de aplicaciones frontend y conocimientos backend. Mi experiencia abarca tecnologías como React, React-Native, Nextjs, Node, Git, SQL mi último proyecto desarrolle una plataforma de e-commerce.
-          Me apasiona crear soluciones tecnológicas que no solo sean funcionales, sino también intuitivas y eficientes. Me esfuerzo por mantenerme al día con las últimas tendencias y tecnologías.
-          Valoro la colaboración y el aprendizaje continuo, y estoy buscando una oportunidad donde pueda aplicar mis habilidades y crecer.
+          Soy un desarrollador con pasión por crear soluciones web y móviles utilizando las últimas tecnologías. Me especializo en desarrollo full-stack, con un fuerte enfoque en React, React Native, Next.js, 
+          Node.js, y otras herramientas modernas como JavaScript TypeScript Docker SQL Git Tailwindcss Postgresql.
           </h3>
       
           {/* estados */}
@@ -49,7 +47,7 @@ const [ref, inView] = useInView({
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                 inView ?
-                <CountUp start={0} end={5} duration={6} /> : null }
+                <CountUp start={0} end={4} duration={6} /> : null }
               </div>
               <div className='font-primary text-sm tracking-[2px]'>
                 Años de  <br />
@@ -61,7 +59,7 @@ const [ref, inView] = useInView({
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                 inView ?
-                <CountUp start={0} end={40} duration={6} /> : null }
+                <CountUp start={0} end={25} duration={6} /> : null }
                 +
               </div>
               <div className='font-primary text-sm tracking-[2px]'>

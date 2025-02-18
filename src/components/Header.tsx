@@ -10,15 +10,15 @@ export const Header = () => {
   return (
     <header className=' py-4'>
 
-      <div className='container mx-auto'>
-       <div className='flex justify-between items-center'>
+       <div className='container mx-auto'>
+        {/* <div className='flex justify-between items-center'> */}
         {/* logo */}
-        <Image src={Logo} 
-        alt={''}
-        width={200}
-        height={50} 
-        className=' opacity-90 '
-      />
+         {/* <Image src={Logo}  */}
+        {/* alt={''} */}
+        {/* width={200} */}
+        {/* height={50}  */}
+        {/* className=' opacity-90 '  */}
+      {/* />  */}
   
         <Link
         to='trabajo'
@@ -29,7 +29,7 @@ export const Header = () => {
         type='button'> Mi trabajo</button>
         </Link>
    
-       </div>
+       {/* </div> */}
       </div>
 
     </header>

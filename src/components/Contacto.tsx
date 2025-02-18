@@ -6,12 +6,22 @@ import emailjs from '@emailjs/browser';
 
 export const Contacto = () => {
 
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e) => {
+  interface EmailFormElements extends HTMLFormControlsCollection {
+    name: HTMLInputElement;
+    email: HTMLInputElement;
+    message: HTMLTextAreaElement;
+  }
+
+  interface EmailForm extends HTMLFormElement {
+    readonly elements: EmailFormElements;
+  }
+
+  const sendEmail = (e: React.FormEvent<EmailForm>) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_cn3pbl3', 'template_9ht82wf', form.current, {
+    emailjs.sendForm('service_cn3pbl3', 'template_9ht82wf', form.current as unknown as HTMLFormElement, {
         publicKey: 'LGdqJ2t3y5Abb8BOs',
       })
     
@@ -24,7 +34,7 @@ export const Contacto = () => {
         },
       );
       alert('Mensaje enviado')
-      e.target.reset()
+      e.currentTarget.reset()
   };
 
 

@@ -31,8 +31,7 @@ export const Trabajos = () => {
                 Mi trabajo
               </h2>
               <p className=" max-w-sm mb-10">
-              Este formato proporciona una descripción concisa de cada proyecto, destacando
-               las tecnologías utilizadas y las principales características.
+              Tecnologías utilizadas y las principales características.
                 
               </p>
               <a href="https://github.com/ovi-dev">
